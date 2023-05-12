@@ -15,4 +15,11 @@ public class Suma {
     public int Sumar() {
         return num1 + num2;
     }
+
+    // Creamos el metodo getNum1
+    public int getNum1() {
+        return num1;
+    }
+
+    
 }
