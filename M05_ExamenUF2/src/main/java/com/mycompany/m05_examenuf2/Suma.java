@@ -21,5 +21,7 @@ public class Suma {
         return num1;
     }
 
-    
+    public double sumaValorAbsolut() {
+        return Math.abs(num1) + Math.abs(num2);
+    }
 }
