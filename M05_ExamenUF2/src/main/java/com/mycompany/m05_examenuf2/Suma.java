@@ -1,8 +1,18 @@
 package com.mycompany.m05_examenuf2;
 
 public class Suma {
+    // Definimos los atributos
+    private int num1;
+    private int num2;
+
+    // Creamos el constructor
+    public Suma(int num1, int num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+
     // Creamos el metodo Sumar
-    public int Sumar(int num1, int num2) {
+    public int Sumar() {
         return num1 + num2;
     }
 }
